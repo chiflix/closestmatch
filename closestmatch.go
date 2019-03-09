@@ -17,6 +17,7 @@ type ClosestMatch struct {
 	SubstringSizes []int
 	SubstringToID  map[string]map[uint32]struct{}
 	ID             map[uint32]IDInfo
+	Remark         int64
 	mux            sync.Mutex
 }
 
